@@ -1,0 +1,126 @@
+body {
+	background-color: #57bc6f;
+}
+
+.container {
+	background: #fff;
+	padding-top: 1px;
+}
+
+#logo {
+	width: 200px;
+	padding-left: 40px;
+	margin-top: -25px;
+	margin-left: 10px;
+	margin-right: 10px;
+	float: left;
+}
+#logo a img{
+	border-left: 20px solid #fff;
+	border-right: 20px solid #fff;
+	
+}
+
+#header {
+	margin-top: 40px;
+	background: #57bc6f;
+	height: 50px;
+	margin-bottom: 60px;
+}
+
+#header .nav {
+	float: right;
+	padding-top: 10px;
+	padding-left: 10px;
+	font-size: 1.5em;
+}
+
+#header ul a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#header .nav li {
+	font-family: 'MenschRegular';
+	float:left;
+	margin-right: 30px;
+	padding-top: 5px;
+	font-size: 1.75em;
+}
+
+h2 {
+	font-family: 'wisdom_script_airegular';
+	float: left;
+	font-size: 50px;
+	margin-bottom: 30px;
+	color: #57bc6f;
+}
+
+#content {
+	background-size: contain; 
+	padding: 0px 40px 350px;
+	background-position: center bottom;
+	background-image: url(../img/images/background.png);
+	background-repeat: no-repeat;
+}
+
+#content .progress {
+	float: right;
+}
+
+label {
+	font-size: 9px;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	color: #c0c0c0;
+}
+
+label.error {
+	text-transform: inherit;
+	letter-spacing: 0;
+	color: #911;
+}
+
+inpur[type="text"].error {
+	color: #fff;
+	backfround: #faa;
+}
+
+#login-submit {
+	clear: left;
+	padding-top: 15px;
+	border-top: 1px solid #eee;
+}
+
+#login-submit label,
+legend {
+	display: none;
+}
+
+
+input[type="text"] {
+	margin:0;
+	font-size: 21px;
+	border: none;
+	background-color: #eee;
+}
+
+input[type="text"]:focus {
+	color:#23a236;
+	border:none;
+	outline: none;
+}
+
+input[type="submit"],
+input[type="submit"]:hover {
+	font-size: 10px;
+	text-transform: uppercase;
+	letter-spacing: .2em;
+	border: none;
+	color: #fff;
+	background:#23a236;
+}
+
+input[type="submit"]:hover {
+	background: #138617;
+}

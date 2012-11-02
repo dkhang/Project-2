@@ -13,6 +13,8 @@
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 
         <link rel="stylesheet" href="css/framework.css">
+        <link rel="stylesheet" href="fonts/mensch_stylesheet.css">
+        <link rel="stylesheet" href="fonts/wisdom_stylesheet.css">
         <link rel="stylesheet" href="css/main.css">
         <script src="js/vendor/modernizr-2.6.1.min.js"></script>
     </head>
@@ -22,19 +24,88 @@
         <![endif]-->
 
         <!-- Add your site or application content here -->
-        <p>Hello world! This is HTML5 Boilerplate.</p>
+        
+        <div class="container">
+        	<div id="header" class="clearfix">
+        		<h1 id="logo" class="columns two"><a href="index.html"><img width="100%" src="img/images/logo_02.png" alt="GPH"></a></h1>
+        		
+        		<ul class="nav columns ten">
+        		<li><a href="#">HOME</a></li>
+        		<li><a href="#">ISSUES</a></li>
+        		<li><a href="#">SIGN UP</a></li>
+        		<li><a href="#">ABOUT</a></li>
+        		</ul>
+        		
+        	</div>
+        	
+        	<div id="content" class="clearfix">
+	        
+	        	<h2> Get Registered to Vote! </h2>
+	        	
+	        	<ol class="progress columns three">
+	        		<li>Step 1</li>
+	        		<li>Step 2</li>
+	        		<li>Step 3</li>
+	        	</ol>
+	        	
+	        	<form action=""  method="get" class="columns twelve"> 
+    		       
+    		        <fieldset id="name">
+			       
+			        	<legend>Your Name</legend>
+			        	
+			        	<div class="control columns four alpha">
+				        	<label form="first">First Name</label>
+				        	<input type="text" id="first" name="first" class="required text">
+			        	</div>
+			        	
+			        	<div class="control columns four omega">
+				        	<label form="last">Last Name</label>
+				        	<input type="text" id="last" name="Last" class="required text">
+			        	</div>
+			        </fieldset>	
+			        
+			        <fieldset id="email" class="alpha columns eight">
+			        	<legend>Email Address</legend>
+			        	<label form="email">Email</label>
+			        	<input type="text" id="email" name="Email" class="required email">
+			        </fieldset>
+			        
+			        <fieldset id="login-submit" class="alpha columns eight">
+			        	<legend>Submit Login</legend>
+			        	<label form="continue"> Continue </label>
+			        	<input type="submit" id="continue"name="continue" value="continue" class="required">
+			       
+			        </fieldset>
+		        
+		        </form>
+		        
+		        <div class="columns five" id="column1">
+		        	column1
+		        </div>
+		        
+		        <div class="columns five" id="column2">
+		        	column2
+		        </div>
+		        
+		        <div class="columns five" id="column3">
+		        	column3
+		        </div>
+        	
+        	</div>
+        	
+        	<div id="footer" class="clearfix">
+        	</div>
+        </div>
+        
+        <!-- Foundations3 -->
 
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
         <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.8.0.min.js"><\/script>')</script>
+        
+        <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.10.0/jquery.validate.js"></script>
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
-
-        <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
-        <script>
-            var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
-            (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-            g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-            s.parentNode.insertBefore(g,s)}(document,'script'));
-        </script>
+        
     </body>
 </html>
